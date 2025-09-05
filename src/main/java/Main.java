@@ -11,9 +11,11 @@ public class Main {
         post.name = "Иван";
         post.passport = "444444444444";
         post.patronymic = "Иванович";
-        post.pone = "8_923_554_4450";
+        post.pone = "8_923_554_44_50";
         post.surname = "Иванов";
         post.subscription = true;
+
+        System.out.println(post.pone);
     }
 
 }
