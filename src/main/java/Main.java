@@ -4,9 +4,9 @@ public class Main {
 
         Post post = new Post();
         post.birthday = new FormDate();
-        post.birthday.day = "13";
-        post.birthday.month = "6";
-        post.birthday.year = "1999";
+        post.birthday.day = 13;
+        post.birthday.month = 6;
+        post.birthday.year = 1999;
 
         post.name = "Иван";
         post.passport = "444444444444";
@@ -15,7 +15,7 @@ public class Main {
         post.surname = "Иванов";
         post.subscription = true;
 
-        System.out.println(post.pone);
+        System.out.println(post.pone + " Ваш номер телефона");
     }
 
 }
